@@ -11636,6 +11636,12 @@ pre .code {
       -ms-flex-align: center;
           align-items: center;
   padding: 40px 0;
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./contact.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./contact.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 @media (max-width: 991.98px) {
@@ -11651,19 +11657,11 @@ pre .code {
   }
 }
 
-.contact .map {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-}
-
 .contact .contact-form-card,
 .contact .contact-info-card {
   padding: 35px;
   background: #fff;
-  min-height: 500px;
+  min-height: 400px;
 }
 
 .contact .contact-info-card {
